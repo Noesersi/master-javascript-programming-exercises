@@ -1,5 +1,12 @@
+
 function filterOddElements(arr) {
   // your code here
+  let newArr = arr.filter( number => {
+    if(number % 2 !== 0){
+      return number
+    }
+  })
+  return newArr
   
 }
 

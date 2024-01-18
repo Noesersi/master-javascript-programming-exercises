@@ -1,5 +1,10 @@
 function isOddWithoutModulo(num) {
     // your code here
+    if((num & 1)=== 1){
+        return true
+    }else{
+        return false
+    }
     
 }
 

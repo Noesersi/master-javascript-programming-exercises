@@ -1,5 +1,7 @@
 function filterEvenElements(arr) {
     // your code here
+    let even = arr.filter(number => number % 2 == 0)
+    return even
     
 }
 
